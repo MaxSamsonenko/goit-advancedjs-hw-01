@@ -5,4 +5,3 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       <img class="gallery__image" src="${O}" alt="${p}" data-title="${p}" />
    </a>
 </li>`).join("");j.innerHTML=z;new F(".gallery a",{captionType:"data",captionDelay:250});
-//# sourceMappingURL=01-gallery-8e672c74.js.map
