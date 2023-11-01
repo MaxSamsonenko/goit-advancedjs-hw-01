@@ -27,6 +27,10 @@ function inputHandler() {
 //function for form submit, clear input fields and local storage
 function formSubmitHandler(e) {
   e.preventDefault();
+  if (email.value === '' || message.value === '') {
+    alert('Please fill in all the fields');
+    return;
+  }
   console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
   localStorage.removeItem('feedback-form-state');
   email.value = '';
